@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira página</title>  
+    </title>
+    <meta name="description" content="Quiz para programadores">
+    
+    <meta name="autor" content="Gustavo">
+
+    <meta name="keywords" content="programação, quiz, perguntas, respostas, teste, conhecimento">
+</head>
+<body>
+    <h1>MInha primeira pagina</h1>
+    <h2>O melhor site do sistema solar</h2>
+    <h3>O melhor site do sistema solar, com informações atualizadas sobre os planetas, estrelas e galáxias.</h3>
+    <p>Hoje você vai conhecer o melhor site do sistema solar</p>
+
+     ---------Cabeçalho do site----------------
+
+    <header>
+   <!--Como boas praticas no desenvolvimento de sites recomenda-se 01 <h1> por aba-->
+    <h1>Teste para programadores</h1>
+    <!--Paragrafo-->
+    <p>
+
+        <b>TESTE PARA PROGRAMADORES</b>
+        <!--Paragrafo--> 
+        </p>
+        <header>
+
+      <!--Conteudo da pagina principal-->
+         <main>
+           <!--Delimita de forma organizada o conteudo principal do site-->
+            <section>
+             <h2>
+               <u>Sobre teste: </u>
+            </h2>
+            <p>
+              Esse teste foi desenvolvido para treinar seus conehcimentos em <strong>Programaçao</strong>como: <br> - Linguagem em; <br> - Logica de programaçao; <br> - Conceitos basicos; <br> - Entre Outros. <br><br>
+              Voce encotrara diferentes tipos de perguntas como:<br> - Multipla escolha textos; <br> - Datas; <br> - Imagens. <br><br> Voce tambem podera encontrar alguns acronimos como <abbr title="Hyper Markup Language(Linguagem de Marcaçao Hipertextp)"><i></i></abbr> e <abbr title="Cascading Style Sheets(Folhas de Estilo em Cascata)"><i></i></abbr>, <br> que sao comumente usados em questoes relacionadas em <em> Desenvolvimento Web.</em> <br><br><b>Boa sorte!</b></i>
+            </p>
+            <!--Propiedades de paragrafos(textos)-->
+            <!--<strong> Da forte importancia ou texto
+             <em>-- Da enfase no texto escolhido
+             <br>-- Quebra de linha
+             <abbr>-- Cria uma abreviaçao explicativa ao passar o mouse 
+                <b>--Negrito
+                <i>--Italico
+                <u>--Sublinhado-->
+             </section>
+             <section>
+                <!--Inicio do QUIZ
+                Questao 01-->
+                <h2>Questao 01:Qual a linguagem de programacao mais utilizada para desenvolvimento web?</h2>
+                <!-- A tag <form> e a base de qualer sistema interativo na web, e o "envelope" que agrupa ps campos de entrada  (Imput) e define onde e como os dados preenchidos serao enviados no servidor-->
+                    <form>
+                    <!--Essa linha <Imput> representa o link com a logica a ser implementada no BackEnd-->
+                    <!--O nome descrito na tag name nao e visivel para o usuario sendo entao necessario acescentar uma linha <label>-->
+                      <input type="radio" value="Python" id="q1a" name="Pergunta1">
+                      <label for="q1a"><b>Python</b></label><br>
+                      <input type="radio" value="JavaScript" id="q1b" 
+                      name="Pergunta1">
+                        <label for="q1b"><b>JavaScript</b></label><br>
+                        <input type="radio" value="C++" id="q1c" name="Pergunta1">
+                         <label for="q1c"><b>C++</b></label><br>
+                         <input type="radio" value="HTML" id="q1d" name="Pergunta1">
+                          <label for="q1d"><b>HTML</b></label><br>
+                          </form>
+                </section> <br>
+                <hr><hr>
+                <section>
+                <!-- Questao 02-->
+                <h2>Questao 02: Na URL HTPPS://www.google.com.br, o trecho "google.com" e conhecido como:</h2>
+                <form>
+                <b>Resposta:</b> <input type="text" id="q2" name="Pergunta2" 
+                placeholder="Digite sua resposta">
+                   <label for="q2" Digite sua resposta></label>
+                </form>
+            </section>
+            <br>
+            <hr><hr>
+            <section>
+                <!--Questao 03- Senha -->
+                <h2>Questao  03: Escreva um exemplo de senha segura:</h2>
+                 <form>
+                    <b>Resposta:</b> <input type="password" id="q3" name="Pergunta3"
+                    placeholder="Digite sua resposta">
+                    <label for="q3" Digite sua resposta></label>
+                 </form>
+            </section><br>
+        <hr><hr>
+        <section>
+            
+                 <!--Questao 04: Em que ano o HTML foi lançado:-->
+                 <h2>
+                    Questao 04: Em que ano o HTML foi lançado:
+            </h2>
+                <form>
+                    <b>Resposta:</b> <input type="date" id="q4" name="Pergunta4">
+                    <label for="q4"></label>
+                    </form>
+        </section><br>
+        <hr><hr>
+
+        <section>
+            
+            <!--Questao 05: Qual dessas tecnologias sao consideradas Linguagem de Programacao?-->
+            <h2>
+                Questao 05: Qual dessas tecnologias sao consideradas Linguagem de Programacao?
+            </h2>
+             <form>
+                <b>resposta:</b>
+                <input type="checkbox" value="Python" id="q5a" name="Pergunta5">
+                <label for="q5a"><b>Python</b></label><br>
+                <input type="checkbox" value="JavaScript" id="q5b" name="Pergunta5">
+                <label for="q5b"><b>JavaScript</b></label><br>
+                <input type="checkbox" value="C++" id="q5c" name="Pergunta5">
+                <label for="q5c"><b>C++</b></label><br>
+                <input type="checkbox" value="HTML" id="q5d" name="Pergunta5">
+                <label for="q5d"><b>HTML</b></label><br>
+            </form>
+            </section><br>
+            <hr><hr>
+
+            <section>
+                Questao 06
+           <h2><!--Questao 06: faça upload de um arquivo que contenha um codigo de HTML:--></h2>
+            <form>
+                <input type="file" id="q6"
+                name="Pergunta6">
+                <label for="q6">Selecionar arquivo</label><br>
+
+            </form>
+            </section><br>
+            <hr><hr>
+
+            <section>
+
+             <!--Questao 07 - Menu Suspenso -->
+
+                <h2>   
+              <!--Questao 07: Qual a tag utilizada para criar um link em HTML?-->
+              </h2>
+              <form>
+                <opitions> value= </opitions>
+                <options></options>
+                <opitions></opitions>
+                <opitions></opitions>
+                <opitions></opitions>
+                </form>
+                </section><br>
+                <hr><hr>
+                <section>
+
+                    <!--Questão 08 - Menu Suspenso -->
+                    <h2>
+                        Questão 08: Qual linguagem de programação é representada pelo Logotipo abaixo?
+                    </h2>
+                    <figure>
+                        <img src="assets/img_programação.png" alt="Imagem do Logotipo da Linguagem de Programação" width="450" height="300">
+                        
+                        <figcaption><b>Figura 01 - Logotipo da Linguagem de Programação</b></figcaption></p>
+
+                    </figure>
+
+                    <form>
+                         <input type="radio" value= "Pyton" id="q8a" name="Pergunta8">
+                                <label for="q1a"><b>Pyton</b></label><br>
+
+                                <input type="radio" value= "JAVA" id="q8b" name="Pergunta8">
+                                <label for="q1b"><b>JAVA</b></label><br>
+
+                                <input type="radio" value= "C++" id="q8c" name="Pergunta8">
+                                <label for="q1c"><b>C++</b></label> <br>
+
+                                <input type="radio" value= "JavaScript" id="q8d" name="Pergunta8">  
+                                <label for="q1d"><b>JavaScript</b></label> <br>  
+
+                    </form>       
+                 </section><br>
+                 <hr><hr>
+                <!--tabela de pontuacao-->
+                <section> 
+                    <h2>Tabela de pontuacao</h2>
+                    <!--Montar a estrutura da tabela-->
+
+                    <tbody>
+                    <table  border="1">
+                        <thead>
+                            <tr>
+                               <td>Pontuação</td><th>Classificação</td>
+                            </tr>
+                             
+                            </thead>
+                        <!--A tag <tr> mesmo significando row. POde causar alguma duvida em referencia "Traduçao Row (Coluna)", mas sera habilitada a ediçao da linha da coluna-->
+                            <tr>
+                                <th>0-2</th><th>Nao foi bem!Tente novamente!</th>
+                                </tr>
+                                <tr>
+                                    <th>3-4</th><th>Você precisa melhorar muito ainda</th>
+                                </tr>
+                                <tr>
+                                    <th>5-6</th><th>Regular mais ainda não é o suficiente</th>
+                                </tr>
+                                <tr>
+                                    <th>7-8</th><th>Muito bom!Você está aprendendo!</th>
+                                </tr>
+                                <tr>
+                                    <th>9-10</th><th>Parabéns!Você é um programador de sucesso!</th>
+                                    </tr>
+                                    <tfoot>
+                        <th colspan="2">Boa sorte na proxima!</th>
+                        </tfoot>
+                                </table>
+                    </tbody>
+                </section>
+                <section>
+                    <!--Listas de respostas-->
+                    <h2>Verifique suas respostas</h2>
+
+                    <!--Como na tabela para trabalharmos com listas,primeiramenteprecisamos informar a intenção atraves da tag <ul> ou <ol>
+                        ul<!--Habilita a lista
+                     ol<!--A lista será de numeros
+                     li<!--Lista de pontos-->
+                     <details>
+                        <summary>Clique para visualizar as respotas</summary>
+                     <ul>
+                        <OL>
+                        <li>html</li>
+                        <li>Dominio</li>
+                        <li>SenhaSegura123</li>
+                        <li>1991</li>
+                        <li>Python,JavaScript,JAVA</li>
+                        <li>-*.html</li>
+                        <li>type</li>
+                        <li>Java</li>
+                            </OL>
+                            </details>
+                        </ul>                       
+                </section>
+                <section>
+                    <!--Formulário de Feedback-->
+                    <form>
+                        <fieldset>
+
+                            <legend>Informações de contato: </legend>
+                            <label for="nome">Informe seu nome:</label>
+                            <input type="text" id="nome" name="Nome"><br><br>
+
+                            <label for="email">Informe seu email:</label>
+                            <input type="email" id="email" name="Email"><br><br>
+                            
+                        <textarea name="comentáriocmt" id="cmt" cols="50" rows="4" placeholder="Deixe seu comentário aqui..."></textarea><br><br>
+                        </fieldset>
+                    </form>
+                   
+                </section>
+                </main>
+
+                <footer>
+                    <p>Teste de programadores.Todos os direitos reservaods</p>
+                    <p>Para acessar mais testes <a href="pages/pages1.html" target="_top"> Clique aqui</a></p>
+                    </footer>
+
